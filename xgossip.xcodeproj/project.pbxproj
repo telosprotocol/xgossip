@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FA79D722B273A000B5D6BE /* gossip_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79C522B273A000B5D6BE /* gossip_interface.h */; };
+		99FA79D822B273A000B5D6BE /* block_sync_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79C722B273A000B5D6BE /* block_sync_manager.h */; };
+		99FA79D922B273A000B5D6BE /* broadcast_layered.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79C822B273A000B5D6BE /* broadcast_layered.h */; };
+		99FA79DA22B273A000B5D6BE /* gossip_bloomfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79C922B273A000B5D6BE /* gossip_bloomfilter.h */; };
+		99FA79DB22B273A000B5D6BE /* gossip_bloomfilter_layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79CA22B273A000B5D6BE /* gossip_bloomfilter_layer.h */; };
+		99FA79DC22B273A000B5D6BE /* gossip_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79CB22B273A000B5D6BE /* gossip_utils.h */; };
+		99FA79DD22B273A000B5D6BE /* header_block_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79CC22B273A000B5D6BE /* header_block_data.h */; };
+		99FA79DE22B273A000B5D6BE /* mesages_with_bloomfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79CD22B273A000B5D6BE /* mesages_with_bloomfilter.h */; };
+		99FA79DF22B273A000B5D6BE /* random_layered_broadcast.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA79CE22B273A000B5D6BE /* random_layered_broadcast.h */; };
+		99FA79E022B273A000B5D6BE /* block_sync_manager.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D022B273A000B5D6BE /* block_sync_manager.cc */; };
+		99FA79E122B273A000B5D6BE /* broadcast_layered.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D122B273A000B5D6BE /* broadcast_layered.cc */; };
+		99FA79E222B273A000B5D6BE /* gossip_bloomfilter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D222B273A000B5D6BE /* gossip_bloomfilter.cc */; };
+		99FA79E322B273A000B5D6BE /* gossip_bloomfilter_layer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D322B273A000B5D6BE /* gossip_bloomfilter_layer.cc */; };
+		99FA79E422B273A000B5D6BE /* gossip_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D422B273A000B5D6BE /* gossip_utils.cc */; };
+		99FA79E522B273A000B5D6BE /* header_block_data.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D522B273A000B5D6BE /* header_block_data.cc */; };
+		99FA79E622B273A000B5D6BE /* messages_with_bloomfilter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99FA79D622B273A000B5D6BE /* messages_with_bloomfilter.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99FA788B22B2719D00B5D6BE /* libxgossip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxgossip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FA79C522B273A000B5D6BE /* gossip_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gossip_interface.h; sourceTree = "<group>"; };
+		99FA79C722B273A000B5D6BE /* block_sync_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_sync_manager.h; sourceTree = "<group>"; };
+		99FA79C822B273A000B5D6BE /* broadcast_layered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = broadcast_layered.h; sourceTree = "<group>"; };
+		99FA79C922B273A000B5D6BE /* gossip_bloomfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gossip_bloomfilter.h; sourceTree = "<group>"; };
+		99FA79CA22B273A000B5D6BE /* gossip_bloomfilter_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gossip_bloomfilter_layer.h; sourceTree = "<group>"; };
+		99FA79CB22B273A000B5D6BE /* gossip_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gossip_utils.h; sourceTree = "<group>"; };
+		99FA79CC22B273A000B5D6BE /* header_block_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header_block_data.h; sourceTree = "<group>"; };
+		99FA79CD22B273A000B5D6BE /* mesages_with_bloomfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesages_with_bloomfilter.h; sourceTree = "<group>"; };
+		99FA79CE22B273A000B5D6BE /* random_layered_broadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_layered_broadcast.h; sourceTree = "<group>"; };
+		99FA79D022B273A000B5D6BE /* block_sync_manager.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block_sync_manager.cc; sourceTree = "<group>"; };
+		99FA79D122B273A000B5D6BE /* broadcast_layered.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = broadcast_layered.cc; sourceTree = "<group>"; };
+		99FA79D222B273A000B5D6BE /* gossip_bloomfilter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gossip_bloomfilter.cc; sourceTree = "<group>"; };
+		99FA79D322B273A000B5D6BE /* gossip_bloomfilter_layer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gossip_bloomfilter_layer.cc; sourceTree = "<group>"; };
+		99FA79D422B273A000B5D6BE /* gossip_utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gossip_utils.cc; sourceTree = "<group>"; };
+		99FA79D522B273A000B5D6BE /* header_block_data.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = header_block_data.cc; sourceTree = "<group>"; };
+		99FA79D622B273A000B5D6BE /* messages_with_bloomfilter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = messages_with_bloomfilter.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FA788822B2719D00B5D6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FA788222B2719D00B5D6BE = {
+			isa = PBXGroup;
+			children = (
+				99FA79C422B2739500B5D6BE /* source */,
+				99FA788C22B2719D00B5D6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FA788C22B2719D00B5D6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FA788B22B2719D00B5D6BE /* libxgossip.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FA79C422B2739500B5D6BE /* source */ = {
+			isa = PBXGroup;
+			children = (
+				99FA79C522B273A000B5D6BE /* gossip_interface.h */,
+				99FA79C622B273A000B5D6BE /* include */,
+				99FA79CF22B273A000B5D6BE /* src */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		99FA79C622B273A000B5D6BE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				99FA79C722B273A000B5D6BE /* block_sync_manager.h */,
+				99FA79C822B273A000B5D6BE /* broadcast_layered.h */,
+				99FA79C922B273A000B5D6BE /* gossip_bloomfilter.h */,
+				99FA79CA22B273A000B5D6BE /* gossip_bloomfilter_layer.h */,
+				99FA79CB22B273A000B5D6BE /* gossip_utils.h */,
+				99FA79CC22B273A000B5D6BE /* header_block_data.h */,
+				99FA79CD22B273A000B5D6BE /* mesages_with_bloomfilter.h */,
+				99FA79CE22B273A000B5D6BE /* random_layered_broadcast.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		99FA79CF22B273A000B5D6BE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				99FA79D022B273A000B5D6BE /* block_sync_manager.cc */,
+				99FA79D122B273A000B5D6BE /* broadcast_layered.cc */,
+				99FA79D222B273A000B5D6BE /* gossip_bloomfilter.cc */,
+				99FA79D322B273A000B5D6BE /* gossip_bloomfilter_layer.cc */,
+				99FA79D422B273A000B5D6BE /* gossip_utils.cc */,
+				99FA79D522B273A000B5D6BE /* header_block_data.cc */,
+				99FA79D622B273A000B5D6BE /* messages_with_bloomfilter.cc */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99FA788922B2719D00B5D6BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FA79D722B273A000B5D6BE /* gossip_interface.h in Headers */,
+				99FA79DC22B273A000B5D6BE /* gossip_utils.h in Headers */,
+				99FA79DA22B273A000B5D6BE /* gossip_bloomfilter.h in Headers */,
+				99FA79DF22B273A000B5D6BE /* random_layered_broadcast.h in Headers */,
+				99FA79DB22B273A000B5D6BE /* gossip_bloomfilter_layer.h in Headers */,
+				99FA79DD22B273A000B5D6BE /* header_block_data.h in Headers */,
+				99FA79D822B273A000B5D6BE /* block_sync_manager.h in Headers */,
+				99FA79DE22B273A000B5D6BE /* mesages_with_bloomfilter.h in Headers */,
+				99FA79D922B273A000B5D6BE /* broadcast_layered.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99FA788A22B2719D00B5D6BE /* xgossip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FA788F22B2719D00B5D6BE /* Build configuration list for PBXNativeTarget "xgossip" */;
+			buildPhases = (
+				99FA788722B2719D00B5D6BE /* Sources */,
+				99FA788822B2719D00B5D6BE /* Frameworks */,
+				99FA788922B2719D00B5D6BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xgossip;
+			productName = xgossip;
+			productReference = 99FA788B22B2719D00B5D6BE /* libxgossip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FA788322B2719D00B5D6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Taylor Wei";
+				TargetAttributes = {
+					99FA788A22B2719D00B5D6BE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99FA788622B2719D00B5D6BE /* Build configuration list for PBXProject "xgossip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99FA788222B2719D00B5D6BE;
+			productRefGroup = 99FA788C22B2719D00B5D6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FA788A22B2719D00B5D6BE /* xgossip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FA788722B2719D00B5D6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FA79E622B273A000B5D6BE /* messages_with_bloomfilter.cc in Sources */,
+				99FA79E122B273A000B5D6BE /* broadcast_layered.cc in Sources */,
+				99FA79E422B273A000B5D6BE /* gossip_utils.cc in Sources */,
+				99FA79E222B273A000B5D6BE /* gossip_bloomfilter.cc in Sources */,
+				99FA79E322B273A000B5D6BE /* gossip_bloomfilter_layer.cc in Sources */,
+				99FA79E522B273A000B5D6BE /* header_block_data.cc in Sources */,
+				99FA79E022B273A000B5D6BE /* block_sync_manager.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99FA788D22B2719D00B5D6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../xdepends/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../ ../xdepends/include ../third_party";
+			};
+			name = Debug;
+		};
+		99FA788E22B2719D00B5D6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../xdepends/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../ ../xdepends/include ../third_party";
+			};
+			name = Release;
+		};
+		99FA789022B2719D00B5D6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99FA789122B2719D00B5D6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FA788622B2719D00B5D6BE /* Build configuration list for PBXProject "xgossip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FA788D22B2719D00B5D6BE /* Debug */,
+				99FA788E22B2719D00B5D6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FA788F22B2719D00B5D6BE /* Build configuration list for PBXNativeTarget "xgossip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FA789022B2719D00B5D6BE /* Debug */,
+				99FA789122B2719D00B5D6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FA788322B2719D00B5D6BE /* Project object */;
+}
